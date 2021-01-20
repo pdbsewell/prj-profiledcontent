@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TaskSubCategory__c</fullName>
+    <deprecated>false</deprecated>
+    <description>New Field for ACV-2151</description>
+    <externalId>false</externalId>
+    <label>Sub-Category</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>TaskCategory__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Account Hold Follow-Up</fullName>
+                <default>false</default>
+                <label>Account Hold Follow-Up</label>
+            </value>
+            <value>
+                <fullName>Collection Hold Follow-Up</fullName>
+                <default>false</default>
+                <label>Collection Hold Follow-Up</label>
+            </value>
+            <value>
+                <fullName>Complaint FUP - Case Manager</fullName>
+                <default>false</default>
+                <label>Complaint FUP - Case Manager</label>
+            </value>
+            <value>
+                <fullName>Complaint FUP - Customer</fullName>
+                <default>false</default>
+                <label>Complaint FUP - Customer</label>
+            </value>
+            <value>
+                <fullName>Follow-Up</fullName>
+                <default>false</default>
+                <label>Follow-Up</label>
+            </value>
+            <value>
+                <fullName>Information Needed</fullName>
+                <default>false</default>
+                <label>Information Needed</label>
+            </value>
+            <value>
+                <fullName>Manager Review</fullName>
+                <default>false</default>
+                <label>Manager Review</label>
+            </value>
+            <value>
+                <fullName>Stakeholder Contact</fullName>
+                <default>false</default>
+                <label>Stakeholder Contact</label>
+            </value>
+            <value>
+                <fullName>To Do</fullName>
+                <default>false</default>
+                <label>To Do</label>
+            </value>
+            <value>
+                <fullName>24 Hour Contact</fullName>
+                <default>false</default>
+                <label>24 Hour Contact</label>
+            </value>
+            <value>
+                <fullName>Call Customer</fullName>
+                <default>false</default>
+                <label>Call Customer</label>
+            </value>
+            <value>
+                <fullName>Email Customer</fullName>
+                <default>false</default>
+                <label>Email Customer</label>
+            </value>
+            <value>
+                <fullName>SMS Customer</fullName>
+                <default>false</default>
+                <label>SMS Customer</label>
+            </value>
+            <value>
+                <fullName>Anonymous</fullName>
+                <default>false</default>
+                <label>Anonymous</label>
+            </value>
+            <value>
+                <fullName>Billing</fullName>
+                <default>false</default>
+                <label>Billing</label>
+            </value>
+            <value>
+                <fullName>Credit Management</fullName>
+                <default>false</default>
+                <label>Credit Management</label>
+            </value>
+            <value>
+                <fullName>CSG</fullName>
+                <default>false</default>
+                <label>CSG</label>
+            </value>
+            <value>
+                <fullName>Fault Fixed Service</fullName>
+                <default>false</default>
+                <label>Fault Fixed Service</label>
+            </value>
+            <value>
+                <fullName>Fault Mobile</fullName>
+                <default>false</default>
+                <label>Fault Mobile</label>
+            </value>
+            <value>
+                <fullName>Fault NBN</fullName>
+                <default>false</default>
+                <label>Fault NBN</label>
+            </value>
+            <value>
+                <fullName>Loss of Business</fullName>
+                <default>false</default>
+                <label>Loss of Business</label>
+            </value>
+            <value>
+                <fullName>O2A NBN</fullName>
+                <default>false</default>
+                <label>O2A NBN</label>
+            </value>
+            <value>
+                <fullName>Property Damage</fullName>
+                <default>false</default>
+                <label>Property Damage</label>
+            </value>
+            <value>
+                <fullName>Resolution Support</fullName>
+                <default>false</default>
+                <label>Resolution Support</label>
+            </value>
+            <value>
+                <fullName>Sales</fullName>
+                <default>false</default>
+                <label>Sales</label>
+            </value>
+            <value>
+                <fullName>Personal Call Back</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Personal Call Back</label>
+            </value>
+            <value>
+                <fullName>Team Call Back</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Team Call Back</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Agent Activity</controllingFieldValue>
+            <valueName>Account Hold Follow-Up</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agent Activity</controllingFieldValue>
+            <valueName>Collection Hold Follow-Up</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agent Activity</controllingFieldValue>
+            <valueName>Complaint FUP - Case Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agent Activity</controllingFieldValue>
+            <valueName>Complaint FUP - Customer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agent Activity</controllingFieldValue>
+            <valueName>Follow-Up</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agent Activity</controllingFieldValue>
+            <valueName>Information Needed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agent Activity</controllingFieldValue>
+            <valueName>Manager Review</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agent Activity</controllingFieldValue>
+            <valueName>Stakeholder Contact</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agent Activity</controllingFieldValue>
+            <valueName>To Do</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Commitment</controllingFieldValue>
+            <valueName>24 Hour Contact</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Commitment</controllingFieldValue>
+            <valueName>Call Customer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Commitment</controllingFieldValue>
+            <valueName>Email Customer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Commitment</controllingFieldValue>
+            <valueName>SMS Customer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complaint Referral</controllingFieldValue>
+            <valueName>Anonymous</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complaint Referral</controllingFieldValue>
+            <valueName>Billing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complaint Referral</controllingFieldValue>
+            <valueName>Credit Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complaint Referral</controllingFieldValue>
+            <valueName>CSG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complaint Referral</controllingFieldValue>
+            <valueName>Fault Fixed Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complaint Referral</controllingFieldValue>
+            <valueName>Fault Mobile</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complaint Referral</controllingFieldValue>
+            <valueName>Fault NBN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complaint Referral</controllingFieldValue>
+            <valueName>Loss of Business</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complaint Referral</controllingFieldValue>
+            <valueName>O2A NBN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complaint Referral</controllingFieldValue>
+            <valueName>Property Damage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complaint Referral</controllingFieldValue>
+            <valueName>Resolution Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Complaint Referral</controllingFieldValue>
+            <valueName>Sales</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

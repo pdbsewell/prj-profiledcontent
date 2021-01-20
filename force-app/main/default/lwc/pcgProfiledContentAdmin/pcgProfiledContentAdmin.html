@@ -1,0 +1,28 @@
+<template>
+
+    <template if:true={hasPermission}>
+        <div class="slds-box slds-theme_default">
+            <div class=slds-form-element>
+                <div >
+                    <c-pcg-group-picker ongroupchange={handleGroupChange}></c-pcg-group-picker>
+                </div>
+            </div>
+            <div class=slds-form-element>
+                <div >
+                    <c-pcg-dealer-picker></c-pcg-dealer-picker>
+                </div>
+            </div>
+            <div class="slds-m-around_medium">
+                V0.1.2 : Value From Child :  {groupName}
+            </div>
+        </div>
+    </template>
+
+    <template if:false={hasPermission}>
+        <div class="slds-box slds-theme_default">
+            <div class="slds-m-around_medium">
+                You do not have the required permission to run this app
+            </div>
+        </div>
+    </template>
+</template>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Profiled_Content_User__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Able to access profiled content (files) in Knowledge community</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Able to access profiled content (files) in Knowledge community</inlineHelpText>
+    <label>Profiled Content User</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

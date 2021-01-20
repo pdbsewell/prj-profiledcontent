@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TaskCategory__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Sri Created fro ACV-2151</description>
+    <externalId>false</externalId>
+    <label>Category</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Agent Activity</fullName>
+                <default>false</default>
+                <label>Agent Activity</label>
+            </value>
+            <value>
+                <fullName>Call Back</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Call Back</label>
+            </value>
+            <value>
+                <fullName>Complaint Referral</fullName>
+                <default>false</default>
+                <label>Complaint Referral</label>
+            </value>
+            <value>
+                <fullName>Customer Commitment</fullName>
+                <default>false</default>
+                <label>Customer Commitment</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
